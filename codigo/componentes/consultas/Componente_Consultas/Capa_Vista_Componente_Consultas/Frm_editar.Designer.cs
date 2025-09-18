@@ -33,30 +33,31 @@ namespace Capa_Vista_Componente_Consultas
             this.creaciònToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtValorCond = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.cbo_Query = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.btnQuitarCampo = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
+            this.Gpb_Form = new System.Windows.Forms.GroupBox();
+            this.Lbl_Campo_Seleccionado = new System.Windows.Forms.Label();
+            this.Btn_Cancelar = new System.Windows.Forms.Button();
+            this.Btn_Agregar2 = new System.Windows.Forms.Button();
+            this.Txt_Campo_selec = new System.Windows.Forms.TextBox();
+            this.Btn_Agregar = new System.Windows.Forms.Button();
+            this.Txt_representativo = new System.Windows.Forms.TextBox();
+            this.Lbl_Nombre_Repre = new System.Windows.Forms.Label();
+            this.Chk_Campos = new System.Windows.Forms.CheckBox();
+            this.Cbo_campo = new System.Windows.Forms.ComboBox();
+            this.Cbo_Query = new System.Windows.Forms.ComboBox();
+            this.Lbl_Campos = new System.Windows.Forms.Label();
+            this.Lbl_Tabla = new System.Windows.Forms.Label();
+            this.Txt_ValorCond = new System.Windows.Forms.TextBox();
+            this.Lbl_Nombre = new System.Windows.Forms.Label();
+            this.Txt_consulta = new System.Windows.Forms.TextBox();
+            this.Lbl_Nombre_Consulta = new System.Windows.Forms.Label();
+            this.Btn_Buscar = new System.Windows.Forms.Button();
             this.Mstp_Consultas.SuspendLayout();
-            this.groupBox1.SuspendLayout();
+            this.Gpb_Form.SuspendLayout();
             this.SuspendLayout();
             // 
             // Mstp_Consultas
             // 
+            this.Mstp_Consultas.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.Mstp_Consultas.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.Mstp_Consultas.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.creaciònToolStripMenuItem,
@@ -64,244 +65,273 @@ namespace Capa_Vista_Componente_Consultas
             this.editarToolStripMenuItem});
             this.Mstp_Consultas.Location = new System.Drawing.Point(0, 0);
             this.Mstp_Consultas.Name = "Mstp_Consultas";
-            this.Mstp_Consultas.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.Mstp_Consultas.Size = new System.Drawing.Size(893, 25);
+            this.Mstp_Consultas.Padding = new System.Windows.Forms.Padding(6, 3, 0, 3);
+            this.Mstp_Consultas.Size = new System.Drawing.Size(1340, 35);
             this.Mstp_Consultas.TabIndex = 10;
             this.Mstp_Consultas.Text = "menuStrip1";
             // 
             // creaciònToolStripMenuItem
             // 
-            this.creaciònToolStripMenuItem.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.creaciònToolStripMenuItem.Font = new System.Drawing.Font("Rockwell", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.creaciònToolStripMenuItem.Name = "creaciònToolStripMenuItem";
-            this.creaciònToolStripMenuItem.Size = new System.Drawing.Size(79, 21);
+            this.creaciònToolStripMenuItem.Size = new System.Drawing.Size(122, 29);
             this.creaciònToolStripMenuItem.Text = "Creación";
             // 
             // consultasToolStripMenuItem
             // 
-            this.consultasToolStripMenuItem.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.consultasToolStripMenuItem.Font = new System.Drawing.Font("Rockwell", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.consultasToolStripMenuItem.Name = "consultasToolStripMenuItem";
-            this.consultasToolStripMenuItem.Size = new System.Drawing.Size(82, 21);
+            this.consultasToolStripMenuItem.Size = new System.Drawing.Size(128, 29);
             this.consultasToolStripMenuItem.Text = "Consultas";
             // 
             // editarToolStripMenuItem
             // 
-            this.editarToolStripMenuItem.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.editarToolStripMenuItem.Font = new System.Drawing.Font("Rockwell", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.editarToolStripMenuItem.Name = "editarToolStripMenuItem";
-            this.editarToolStripMenuItem.Size = new System.Drawing.Size(119, 21);
+            this.editarToolStripMenuItem.Size = new System.Drawing.Size(185, 29);
             this.editarToolStripMenuItem.Text = "Editar/Eliminar";
             // 
-            // groupBox1
+            // Gpb_Form
             // 
-            this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.btnQuitarCampo);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.checkBox1);
-            this.groupBox1.Controls.Add(this.comboBox1);
-            this.groupBox1.Controls.Add(this.cbo_Query);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.txtValorCond);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Font = new System.Drawing.Font("Rockwell", 10.8F);
-            this.groupBox1.Location = new System.Drawing.Point(12, 85);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(869, 245);
-            this.groupBox1.TabIndex = 11;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "General/Simple";
+            this.Gpb_Form.Controls.Add(this.Lbl_Campo_Seleccionado);
+            this.Gpb_Form.Controls.Add(this.Btn_Cancelar);
+            this.Gpb_Form.Controls.Add(this.Btn_Agregar2);
+            this.Gpb_Form.Controls.Add(this.Txt_Campo_selec);
+            this.Gpb_Form.Controls.Add(this.Btn_Agregar);
+            this.Gpb_Form.Controls.Add(this.Txt_representativo);
+            this.Gpb_Form.Controls.Add(this.Lbl_Nombre_Repre);
+            this.Gpb_Form.Controls.Add(this.Chk_Campos);
+            this.Gpb_Form.Controls.Add(this.Cbo_campo);
+            this.Gpb_Form.Controls.Add(this.Cbo_Query);
+            this.Gpb_Form.Controls.Add(this.Lbl_Campos);
+            this.Gpb_Form.Controls.Add(this.Lbl_Tabla);
+            this.Gpb_Form.Controls.Add(this.Txt_ValorCond);
+            this.Gpb_Form.Controls.Add(this.Lbl_Nombre);
+            this.Gpb_Form.Font = new System.Drawing.Font("Rockwell", 10.8F);
+            this.Gpb_Form.Location = new System.Drawing.Point(18, 131);
+            this.Gpb_Form.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Gpb_Form.Name = "Gpb_Form";
+            this.Gpb_Form.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Gpb_Form.Size = new System.Drawing.Size(1304, 377);
+            this.Gpb_Form.TabIndex = 11;
+            this.Gpb_Form.TabStop = false;
+            this.Gpb_Form.Text = "General/Simple";
+            this.Gpb_Form.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // label1
+            // Lbl_Campo_Seleccionado
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(19, 45);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(133, 17);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Nombre Consulta";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.Lbl_Campo_Seleccionado.AutoSize = true;
+            this.Lbl_Campo_Seleccionado.Font = new System.Drawing.Font("Rockwell", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_Campo_Seleccionado.Location = new System.Drawing.Point(736, 63);
+            this.Lbl_Campo_Seleccionado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Lbl_Campo_Seleccionado.Name = "Lbl_Campo_Seleccionado";
+            this.Lbl_Campo_Seleccionado.Size = new System.Drawing.Size(239, 25);
+            this.Lbl_Campo_Seleccionado.TabIndex = 19;
+            this.Lbl_Campo_Seleccionado.Text = "Campos Selecionados";
+            this.Lbl_Campo_Seleccionado.Click += new System.EventHandler(this.label5_Click);
             // 
-            // txtValorCond
+            // Btn_Cancelar
             // 
-            this.txtValorCond.Location = new System.Drawing.Point(158, 42);
-            this.txtValorCond.Name = "txtValorCond";
-            this.txtValorCond.Size = new System.Drawing.Size(184, 24);
-            this.txtValorCond.TabIndex = 7;
+            this.Btn_Cancelar.Font = new System.Drawing.Font("Rockwell", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Cancelar.Image = global::Capa_Vista_Componente_Consultas.Properties.Resources.icons8_cancel_50;
+            this.Btn_Cancelar.Location = new System.Drawing.Point(1152, 209);
+            this.Btn_Cancelar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Btn_Cancelar.Name = "Btn_Cancelar";
+            this.Btn_Cancelar.Size = new System.Drawing.Size(112, 115);
+            this.Btn_Cancelar.TabIndex = 18;
+            this.Btn_Cancelar.Text = "Cancelar";
+            this.Btn_Cancelar.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.Btn_Cancelar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.Btn_Cancelar.UseCompatibleTextRendering = true;
+            this.Btn_Cancelar.UseVisualStyleBackColor = true;
             // 
-            // label2
+            // Btn_Agregar2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(19, 82);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(48, 17);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "Tabla";
+            this.Btn_Agregar2.Font = new System.Drawing.Font("Rockwell", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Agregar2.Image = global::Capa_Vista_Componente_Consultas.Properties.Resources.icons8_add_50;
+            this.Btn_Agregar2.Location = new System.Drawing.Point(1152, 63);
+            this.Btn_Agregar2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Btn_Agregar2.Name = "Btn_Agregar2";
+            this.Btn_Agregar2.Size = new System.Drawing.Size(112, 115);
+            this.Btn_Agregar2.TabIndex = 17;
+            this.Btn_Agregar2.Text = "Agregar";
+            this.Btn_Agregar2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.Btn_Agregar2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.Btn_Agregar2.UseCompatibleTextRendering = true;
+            this.Btn_Agregar2.UseVisualStyleBackColor = true;
             // 
-            // label3
+            // Txt_Campo_selec
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(19, 114);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(65, 17);
-            this.label3.TabIndex = 9;
-            this.label3.Text = "Campos";
+            this.Txt_Campo_selec.Location = new System.Drawing.Point(741, 108);
+            this.Txt_Campo_selec.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Txt_Campo_selec.Multiline = true;
+            this.Txt_Campo_selec.Name = "Txt_Campo_selec";
+            this.Txt_Campo_selec.Size = new System.Drawing.Size(366, 155);
+            this.Txt_Campo_selec.TabIndex = 16;
             // 
-            // cbo_Query
+            // Btn_Agregar
             // 
-            this.cbo_Query.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbo_Query.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbo_Query.FormattingEnabled = true;
-            this.cbo_Query.Location = new System.Drawing.Point(158, 79);
-            this.cbo_Query.Name = "cbo_Query";
-            this.cbo_Query.Size = new System.Drawing.Size(158, 25);
-            this.cbo_Query.TabIndex = 10;
+            this.Btn_Agregar.Font = new System.Drawing.Font("Rockwell", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Agregar.Image = global::Capa_Vista_Componente_Consultas.Properties.Resources.icons8_add_50;
+            this.Btn_Agregar.Location = new System.Drawing.Point(576, 98);
+            this.Btn_Agregar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Btn_Agregar.Name = "Btn_Agregar";
+            this.Btn_Agregar.Size = new System.Drawing.Size(112, 115);
+            this.Btn_Agregar.TabIndex = 15;
+            this.Btn_Agregar.Text = "Agregar";
+            this.Btn_Agregar.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.Btn_Agregar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.Btn_Agregar.UseCompatibleTextRendering = true;
+            this.Btn_Agregar.UseVisualStyleBackColor = true;
+            this.Btn_Agregar.Click += new System.EventHandler(this.btnQuitarCampo_Click);
             // 
-            // comboBox1
+            // Txt_representativo
             // 
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(158, 114);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(158, 25);
-            this.comboBox1.TabIndex = 11;
+            this.Txt_representativo.Location = new System.Drawing.Point(303, 294);
+            this.Txt_representativo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Txt_representativo.Name = "Txt_representativo";
+            this.Txt_representativo.Size = new System.Drawing.Size(274, 33);
+            this.Txt_representativo.TabIndex = 14;
             // 
-            // checkBox1
+            // Lbl_Nombre_Repre
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(158, 151);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(156, 21);
-            this.checkBox1.TabIndex = 12;
-            this.checkBox1.Text = "Todos los Campos";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.Lbl_Nombre_Repre.AutoSize = true;
+            this.Lbl_Nombre_Repre.Font = new System.Drawing.Font("Rockwell", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_Nombre_Repre.Location = new System.Drawing.Point(28, 298);
+            this.Lbl_Nombre_Repre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Lbl_Nombre_Repre.Name = "Lbl_Nombre_Repre";
+            this.Lbl_Nombre_Repre.Size = new System.Drawing.Size(257, 25);
+            this.Lbl_Nombre_Repre.TabIndex = 13;
+            this.Lbl_Nombre_Repre.Text = "Nombre Representativo";
             // 
-            // label4
+            // Chk_Campos
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(19, 194);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(177, 17);
-            this.label4.TabIndex = 13;
-            this.label4.Text = "Nombre Representativo";
+            this.Chk_Campos.AutoSize = true;
+            this.Chk_Campos.Font = new System.Drawing.Font("Rockwell", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Chk_Campos.Location = new System.Drawing.Point(237, 232);
+            this.Chk_Campos.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Chk_Campos.Name = "Chk_Campos";
+            this.Chk_Campos.Size = new System.Drawing.Size(227, 29);
+            this.Chk_Campos.TabIndex = 12;
+            this.Chk_Campos.Text = "Todos los Campos";
+            this.Chk_Campos.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // Cbo_campo
             // 
-            this.textBox1.Location = new System.Drawing.Point(202, 191);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(184, 24);
-            this.textBox1.TabIndex = 14;
+            this.Cbo_campo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.Cbo_campo.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Cbo_campo.FormattingEnabled = true;
+            this.Cbo_campo.Location = new System.Drawing.Point(237, 175);
+            this.Cbo_campo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Cbo_campo.Name = "Cbo_campo";
+            this.Cbo_campo.Size = new System.Drawing.Size(235, 30);
+            this.Cbo_campo.TabIndex = 11;
             // 
-            // textBox2
+            // Cbo_Query
             // 
-            this.textBox2.Location = new System.Drawing.Point(494, 70);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(245, 102);
-            this.textBox2.TabIndex = 16;
+            this.Cbo_Query.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.Cbo_Query.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Cbo_Query.FormattingEnabled = true;
+            this.Cbo_Query.Location = new System.Drawing.Point(237, 122);
+            this.Cbo_Query.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Cbo_Query.Name = "Cbo_Query";
+            this.Cbo_Query.Size = new System.Drawing.Size(235, 30);
+            this.Cbo_Query.TabIndex = 10;
             // 
-            // button2
+            // Lbl_Campos
             // 
-            this.button2.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Image = global::Capa_Vista_Componente_Consultas.Properties.Resources.icons8_cancel_50;
-            this.button2.Location = new System.Drawing.Point(768, 136);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 75);
-            this.button2.TabIndex = 18;
-            this.button2.Text = "Cancelar";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button2.UseCompatibleTextRendering = true;
-            this.button2.UseVisualStyleBackColor = true;
+            this.Lbl_Campos.AutoSize = true;
+            this.Lbl_Campos.Font = new System.Drawing.Font("Rockwell", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_Campos.Location = new System.Drawing.Point(28, 175);
+            this.Lbl_Campos.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Lbl_Campos.Name = "Lbl_Campos";
+            this.Lbl_Campos.Size = new System.Drawing.Size(97, 25);
+            this.Lbl_Campos.TabIndex = 9;
+            this.Lbl_Campos.Text = "Campos";
             // 
-            // button1
+            // Lbl_Tabla
             // 
-            this.button1.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Image = global::Capa_Vista_Componente_Consultas.Properties.Resources.icons8_add_50;
-            this.button1.Location = new System.Drawing.Point(768, 41);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 75);
-            this.button1.TabIndex = 17;
-            this.button1.Text = "Agregar";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button1.UseCompatibleTextRendering = true;
-            this.button1.UseVisualStyleBackColor = true;
+            this.Lbl_Tabla.AutoSize = true;
+            this.Lbl_Tabla.Font = new System.Drawing.Font("Rockwell", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_Tabla.Location = new System.Drawing.Point(28, 126);
+            this.Lbl_Tabla.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Lbl_Tabla.Name = "Lbl_Tabla";
+            this.Lbl_Tabla.Size = new System.Drawing.Size(69, 25);
+            this.Lbl_Tabla.TabIndex = 8;
+            this.Lbl_Tabla.Text = "Tabla";
             // 
-            // btnQuitarCampo
+            // Txt_ValorCond
             // 
-            this.btnQuitarCampo.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnQuitarCampo.Image = global::Capa_Vista_Componente_Consultas.Properties.Resources.icons8_add_50;
-            this.btnQuitarCampo.Location = new System.Drawing.Point(384, 64);
-            this.btnQuitarCampo.Name = "btnQuitarCampo";
-            this.btnQuitarCampo.Size = new System.Drawing.Size(75, 75);
-            this.btnQuitarCampo.TabIndex = 15;
-            this.btnQuitarCampo.Text = "Agregar";
-            this.btnQuitarCampo.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnQuitarCampo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnQuitarCampo.UseCompatibleTextRendering = true;
-            this.btnQuitarCampo.UseVisualStyleBackColor = true;
+            this.Txt_ValorCond.Location = new System.Drawing.Point(237, 65);
+            this.Txt_ValorCond.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Txt_ValorCond.Name = "Txt_ValorCond";
+            this.Txt_ValorCond.Size = new System.Drawing.Size(274, 33);
+            this.Txt_ValorCond.TabIndex = 7;
             // 
-            // label5
+            // Lbl_Nombre
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(491, 41);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(164, 17);
-            this.label5.TabIndex = 19;
-            this.label5.Text = "Campos Selecionados";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            this.Lbl_Nombre.AutoSize = true;
+            this.Lbl_Nombre.Font = new System.Drawing.Font("Rockwell", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_Nombre.Location = new System.Drawing.Point(28, 69);
+            this.Lbl_Nombre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Lbl_Nombre.Name = "Lbl_Nombre";
+            this.Lbl_Nombre.Size = new System.Drawing.Size(192, 25);
+            this.Lbl_Nombre.TabIndex = 0;
+            this.Lbl_Nombre.Text = "Nombre Consulta";
+            this.Lbl_Nombre.Click += new System.EventHandler(this.label1_Click);
             // 
-            // textBox3
+            // Txt_consulta
             // 
-            this.textBox3.Location = new System.Drawing.Point(348, 44);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(269, 20);
-            this.textBox3.TabIndex = 12;
+            this.Txt_consulta.Location = new System.Drawing.Point(522, 68);
+            this.Txt_consulta.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Txt_consulta.Name = "Txt_consulta";
+            this.Txt_consulta.Size = new System.Drawing.Size(402, 26);
+            this.Txt_consulta.TabIndex = 12;
             // 
-            // label6
+            // Lbl_Nombre_Consulta
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Rockwell", 10.8F);
-            this.label6.Location = new System.Drawing.Point(191, 47);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(137, 17);
-            this.label6.TabIndex = 13;
-            this.label6.Text = "Nombre Consulta:";
+            this.Lbl_Nombre_Consulta.AutoSize = true;
+            this.Lbl_Nombre_Consulta.Font = new System.Drawing.Font("Rockwell", 10.8F);
+            this.Lbl_Nombre_Consulta.Location = new System.Drawing.Point(286, 72);
+            this.Lbl_Nombre_Consulta.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Lbl_Nombre_Consulta.Name = "Lbl_Nombre_Consulta";
+            this.Lbl_Nombre_Consulta.Size = new System.Drawing.Size(198, 25);
+            this.Lbl_Nombre_Consulta.TabIndex = 13;
+            this.Lbl_Nombre_Consulta.Text = "Nombre Consulta:";
             // 
-            // button3
+            // Btn_Buscar
             // 
-            this.button3.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Image = global::Capa_Vista_Componente_Consultas.Properties.Resources.android_search_icon_icons_com_50501;
-            this.button3.Location = new System.Drawing.Point(656, 28);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(70, 60);
-            this.button3.TabIndex = 14;
-            this.button3.Text = "Buscar";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
-            this.button3.UseCompatibleTextRendering = true;
-            this.button3.UseVisualStyleBackColor = true;
+            this.Btn_Buscar.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Buscar.Image = global::Capa_Vista_Componente_Consultas.Properties.Resources.android_search_icon_icons_com_50501;
+            this.Btn_Buscar.Location = new System.Drawing.Point(984, 43);
+            this.Btn_Buscar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Btn_Buscar.Name = "Btn_Buscar";
+            this.Btn_Buscar.Size = new System.Drawing.Size(105, 92);
+            this.Btn_Buscar.TabIndex = 14;
+            this.Btn_Buscar.Text = "Buscar";
+            this.Btn_Buscar.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.Btn_Buscar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.Btn_Buscar.UseCompatibleTextRendering = true;
+            this.Btn_Buscar.UseVisualStyleBackColor = true;
             // 
             // Frm_editar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(893, 539);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.groupBox1);
+            this.ClientSize = new System.Drawing.Size(1340, 829);
+            this.Controls.Add(this.Btn_Buscar);
+            this.Controls.Add(this.Lbl_Nombre_Consulta);
+            this.Controls.Add(this.Txt_consulta);
+            this.Controls.Add(this.Gpb_Form);
             this.Controls.Add(this.Mstp_Consultas);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Frm_editar";
             this.Text = "Frm_editar";
+            this.Load += new System.EventHandler(this.Frm_editar_Load);
             this.Mstp_Consultas.ResumeLayout(false);
             this.Mstp_Consultas.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.Gpb_Form.ResumeLayout(false);
+            this.Gpb_Form.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -313,23 +343,23 @@ namespace Capa_Vista_Componente_Consultas
         private System.Windows.Forms.ToolStripMenuItem creaciònToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem consultasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem editarToolStripMenuItem;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtValorCond;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox cbo_Query;
-        private System.Windows.Forms.Button btnQuitarCampo;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.GroupBox Gpb_Form;
+        private System.Windows.Forms.Label Lbl_Nombre;
+        private System.Windows.Forms.Label Lbl_Campos;
+        private System.Windows.Forms.Label Lbl_Tabla;
+        private System.Windows.Forms.TextBox Txt_ValorCond;
+        private System.Windows.Forms.TextBox Txt_representativo;
+        private System.Windows.Forms.Label Lbl_Nombre_Repre;
+        private System.Windows.Forms.CheckBox Chk_Campos;
+        private System.Windows.Forms.ComboBox Cbo_campo;
+        private System.Windows.Forms.ComboBox Cbo_Query;
+        private System.Windows.Forms.Button Btn_Agregar;
+        private System.Windows.Forms.Button Btn_Cancelar;
+        private System.Windows.Forms.Button Btn_Agregar2;
+        private System.Windows.Forms.TextBox Txt_Campo_selec;
+        private System.Windows.Forms.Label Lbl_Campo_Seleccionado;
+        private System.Windows.Forms.TextBox Txt_consulta;
+        private System.Windows.Forms.Label Lbl_Nombre_Consulta;
+        private System.Windows.Forms.Button Btn_Buscar;
     }
 }

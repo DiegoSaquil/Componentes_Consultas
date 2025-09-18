@@ -26,5 +26,22 @@ namespace Capa_Vista_Componente_Consultas
         {
 
         }
+
+        private void btnQuitarCampo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Frm_editar_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
+
+//push 
