@@ -19,16 +19,6 @@ namespace Capa_Vista_Componente_Consultas
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void creaciònToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Frm_Creacion creacion = new Frm_Creacion();
@@ -51,21 +41,5 @@ namespace Capa_Vista_Componente_Consultas
             this.Close(); // cerramos Form2
         }
 
-        private void btn_max_Click(object sender, EventArgs e)
-        {
-            if (this.WindowState == FormWindowState.Normal)
-            {
-                this.WindowState = FormWindowState.Maximized; // Si está normal, se maximiza
-            }
-            else if (this.WindowState == FormWindowState.Maximized)
-            {
-                this.WindowState = FormWindowState.Normal; // Si ya está maximizada, se restaura
-            }
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
     }
 }

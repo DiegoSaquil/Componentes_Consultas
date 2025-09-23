@@ -151,10 +151,10 @@ namespace Capa_Vista_Componente_Consultas
             // Btn_regresar
             // 
             this.Btn_regresar.Font = new System.Drawing.Font("Rockwell", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_regresar.Location = new System.Drawing.Point(743, 6);
+            this.Btn_regresar.Location = new System.Drawing.Point(733, 6);
             this.Btn_regresar.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_regresar.Name = "Btn_regresar";
-            this.Btn_regresar.Size = new System.Drawing.Size(78, 25);
+            this.Btn_regresar.Size = new System.Drawing.Size(88, 25);
             this.Btn_regresar.TabIndex = 14;
             this.Btn_regresar.Text = "Regresar";
             this.Btn_regresar.UseVisualStyleBackColor = true;
