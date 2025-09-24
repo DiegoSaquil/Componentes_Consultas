@@ -104,7 +104,6 @@ namespace Capa_Vista_Componente_Consultas
             this.creaciònToolStripMenuItem.Name = "creaciònToolStripMenuItem";
             this.creaciònToolStripMenuItem.Size = new System.Drawing.Size(79, 21);
             this.creaciònToolStripMenuItem.Text = "Creación";
-            this.creaciònToolStripMenuItem.Click += new System.EventHandler(this.creaciònToolStripMenuItem_Click);
             // 
             // consultasToolStripMenuItem
             // 
@@ -112,7 +111,6 @@ namespace Capa_Vista_Componente_Consultas
             this.consultasToolStripMenuItem.Name = "consultasToolStripMenuItem";
             this.consultasToolStripMenuItem.Size = new System.Drawing.Size(82, 21);
             this.consultasToolStripMenuItem.Text = "Consultas";
-            this.consultasToolStripMenuItem.Click += new System.EventHandler(this.consultasToolStripMenuItem_Click);
             // 
             // editarToolStripMenuItem
             // 
@@ -145,7 +143,6 @@ namespace Capa_Vista_Componente_Consultas
             this.groupBox1.TabIndex = 11;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "General/Simple";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // button8
             // 
@@ -169,7 +166,6 @@ namespace Capa_Vista_Componente_Consultas
             this.label5.Size = new System.Drawing.Size(164, 17);
             this.label5.TabIndex = 19;
             this.label5.Text = "Campos Selecionados";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // button2
             // 
@@ -300,7 +296,6 @@ namespace Capa_Vista_Componente_Consultas
             this.label1.Size = new System.Drawing.Size(133, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Nombre Consulta";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // textBox3
             // 
@@ -519,7 +514,6 @@ namespace Capa_Vista_Componente_Consultas
             this.button9.TabIndex = 16;
             this.button9.Text = "Regresar";
             this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button10
             // 
@@ -538,13 +532,12 @@ namespace Capa_Vista_Componente_Consultas
             this.btn_max.TabIndex = 26;
             this.btn_max.Text = "Maximizar";
             this.btn_max.UseVisualStyleBackColor = true;
-            this.btn_max.Click += new System.EventHandler(this.btn_max_Click);
             // 
             // Frm_editar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(893, 609);
+            this.ClientSize = new System.Drawing.Size(893, 498);
             this.ControlBox = false;
             this.Controls.Add(this.btn_max);
             this.Controls.Add(this.button10);
