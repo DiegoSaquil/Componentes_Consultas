@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Capa_Vista_Componente_Consultas
+// Realizado por: Nelson Jose Godinez Mendez 0901-22-3550
 {
     public partial class Frm_Principal : Form
     {
@@ -17,24 +18,25 @@ namespace Capa_Vista_Componente_Consultas
             InitializeComponent();
         }
 
-        private void btn_ConsultaSimple_Click(object sender, EventArgs e)
+        private void Btn_ConsultaSimple_Click(object sender, EventArgs e)
         {
-            //Consulta simple
-            Frm_Consultas consultas = new Frm_Consultas();
-            consultas.Show();
-            this.Hide();
+                //Consulta simple
+                Frm_Consulta_Simple consultas = new Frm_Consulta_Simple();
+                consultas.Show();
+                this.Hide();
         }
 
-        private void btn_ConsultaCompleja_Click(object sender, EventArgs e)
+        private void Btn_ConsultaCompleja_Click(object sender, EventArgs e)
         {
-            Consulta_Compleja consulta_compleja = new Consulta_Compleja();
+            Frm_Consulta_Compleja consulta_compleja = new Frm_Consulta_Compleja();
             consulta_compleja.Show();
             this.Hide();
         }
 
-        private void btn_Cerrar_Click(object sender, EventArgs e)
+        private void Btn_Cerrar_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
+        // --------------------------------------
     }
 }

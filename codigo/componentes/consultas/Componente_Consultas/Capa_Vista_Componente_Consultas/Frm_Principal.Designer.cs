@@ -29,99 +29,99 @@ namespace Capa_Vista_Componente_Consultas
         /// </summary>
         private void InitializeComponent()
         {
-            this.btn_ConsultaSimple = new System.Windows.Forms.Button();
-            this.btn_ConsultaCompleja = new System.Windows.Forms.Button();
-            this.btn_Ayuda = new System.Windows.Forms.Button();
-            this.lbl_Bienvenida = new System.Windows.Forms.Label();
-            this.btn_Cerrar = new System.Windows.Forms.Button();
-            this.lbl_Instrucciones = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.Btn_ConsultaSimple = new System.Windows.Forms.Button();
+            this.Btn_ConsultaCompleja = new System.Windows.Forms.Button();
+            this.Btn_Ayuda = new System.Windows.Forms.Button();
+            this.Lbl_Bienvenida = new System.Windows.Forms.Label();
+            this.Btn_Cerrar = new System.Windows.Forms.Button();
+            this.Lbl_Instrucciones = new System.Windows.Forms.Label();
+            this.Pic_Logo = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Logo)).BeginInit();
             this.SuspendLayout();
             // 
-            // btn_ConsultaSimple
+            // Btn_ConsultaSimple
             // 
-            this.btn_ConsultaSimple.Location = new System.Drawing.Point(330, 101);
-            this.btn_ConsultaSimple.Name = "btn_ConsultaSimple";
-            this.btn_ConsultaSimple.Size = new System.Drawing.Size(116, 54);
-            this.btn_ConsultaSimple.TabIndex = 0;
-            this.btn_ConsultaSimple.Text = "Consultas Simples";
-            this.btn_ConsultaSimple.UseVisualStyleBackColor = true;
-            this.btn_ConsultaSimple.Click += new System.EventHandler(this.btn_ConsultaSimple_Click);
+            this.Btn_ConsultaSimple.Location = new System.Drawing.Point(330, 101);
+            this.Btn_ConsultaSimple.Name = "Btn_ConsultaSimple";
+            this.Btn_ConsultaSimple.Size = new System.Drawing.Size(116, 54);
+            this.Btn_ConsultaSimple.TabIndex = 0;
+            this.Btn_ConsultaSimple.Text = "Consultas Simples";
+            this.Btn_ConsultaSimple.UseVisualStyleBackColor = true;
+            this.Btn_ConsultaSimple.Click += new System.EventHandler(this.Btn_ConsultaSimple_Click);
             // 
-            // btn_ConsultaCompleja
+            // Btn_ConsultaCompleja
             // 
-            this.btn_ConsultaCompleja.Location = new System.Drawing.Point(330, 199);
-            this.btn_ConsultaCompleja.Name = "btn_ConsultaCompleja";
-            this.btn_ConsultaCompleja.Size = new System.Drawing.Size(116, 56);
-            this.btn_ConsultaCompleja.TabIndex = 1;
-            this.btn_ConsultaCompleja.Text = "Consulta Compleja";
-            this.btn_ConsultaCompleja.UseVisualStyleBackColor = true;
-            this.btn_ConsultaCompleja.Click += new System.EventHandler(this.btn_ConsultaCompleja_Click);
+            this.Btn_ConsultaCompleja.Location = new System.Drawing.Point(330, 184);
+            this.Btn_ConsultaCompleja.Name = "Btn_ConsultaCompleja";
+            this.Btn_ConsultaCompleja.Size = new System.Drawing.Size(116, 56);
+            this.Btn_ConsultaCompleja.TabIndex = 1;
+            this.Btn_ConsultaCompleja.Text = "Consulta Compleja";
+            this.Btn_ConsultaCompleja.UseVisualStyleBackColor = true;
+            this.Btn_ConsultaCompleja.Click += new System.EventHandler(this.Btn_ConsultaCompleja_Click);
             // 
-            // btn_Ayuda
+            // Btn_Ayuda
             // 
-            this.btn_Ayuda.Location = new System.Drawing.Point(348, 309);
-            this.btn_Ayuda.Name = "btn_Ayuda";
-            this.btn_Ayuda.Size = new System.Drawing.Size(75, 50);
-            this.btn_Ayuda.TabIndex = 2;
-            this.btn_Ayuda.Text = "Ayuda";
-            this.btn_Ayuda.UseVisualStyleBackColor = true;
+            this.Btn_Ayuda.Location = new System.Drawing.Point(330, 272);
+            this.Btn_Ayuda.Name = "Btn_Ayuda";
+            this.Btn_Ayuda.Size = new System.Drawing.Size(116, 51);
+            this.Btn_Ayuda.TabIndex = 2;
+            this.Btn_Ayuda.Text = "Ayuda";
+            this.Btn_Ayuda.UseVisualStyleBackColor = true;
             // 
-            // lbl_Bienvenida
+            // Lbl_Bienvenida
             // 
-            this.lbl_Bienvenida.AutoSize = true;
-            this.lbl_Bienvenida.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Bienvenida.Location = new System.Drawing.Point(316, 23);
-            this.lbl_Bienvenida.Name = "lbl_Bienvenida";
-            this.lbl_Bienvenida.Size = new System.Drawing.Size(156, 25);
-            this.lbl_Bienvenida.TabIndex = 3;
-            this.lbl_Bienvenida.Text = "BIENVENIDO!";
+            this.Lbl_Bienvenida.AutoSize = true;
+            this.Lbl_Bienvenida.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_Bienvenida.Location = new System.Drawing.Point(316, 23);
+            this.Lbl_Bienvenida.Name = "Lbl_Bienvenida";
+            this.Lbl_Bienvenida.Size = new System.Drawing.Size(156, 25);
+            this.Lbl_Bienvenida.TabIndex = 3;
+            this.Lbl_Bienvenida.Text = "BIENVENIDO!";
             // 
-            // btn_Cerrar
+            // Btn_Cerrar
             // 
-            this.btn_Cerrar.Location = new System.Drawing.Point(723, 0);
-            this.btn_Cerrar.Name = "btn_Cerrar";
-            this.btn_Cerrar.Size = new System.Drawing.Size(75, 23);
-            this.btn_Cerrar.TabIndex = 4;
-            this.btn_Cerrar.Text = "Cerrar";
-            this.btn_Cerrar.UseVisualStyleBackColor = true;
-            this.btn_Cerrar.Click += new System.EventHandler(this.btn_Cerrar_Click);
+            this.Btn_Cerrar.Location = new System.Drawing.Point(723, 0);
+            this.Btn_Cerrar.Name = "Btn_Cerrar";
+            this.Btn_Cerrar.Size = new System.Drawing.Size(75, 23);
+            this.Btn_Cerrar.TabIndex = 4;
+            this.Btn_Cerrar.Text = "Cerrar";
+            this.Btn_Cerrar.UseVisualStyleBackColor = true;
+            this.Btn_Cerrar.Click += new System.EventHandler(this.Btn_Cerrar_Click);
             // 
-            // lbl_Instrucciones
+            // Lbl_Instrucciones
             // 
-            this.lbl_Instrucciones.AutoSize = true;
-            this.lbl_Instrucciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Instrucciones.Location = new System.Drawing.Point(247, 65);
-            this.lbl_Instrucciones.Name = "lbl_Instrucciones";
-            this.lbl_Instrucciones.Size = new System.Drawing.Size(304, 20);
-            this.lbl_Instrucciones.TabIndex = 5;
-            this.lbl_Instrucciones.Text = "Por favor, selecciona una de las opciones.";
+            this.Lbl_Instrucciones.AutoSize = true;
+            this.Lbl_Instrucciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_Instrucciones.Location = new System.Drawing.Point(247, 65);
+            this.Lbl_Instrucciones.Name = "Lbl_Instrucciones";
+            this.Lbl_Instrucciones.Size = new System.Drawing.Size(304, 20);
+            this.Lbl_Instrucciones.TabIndex = 5;
+            this.Lbl_Instrucciones.Text = "Por favor, selecciona una de las opciones.";
             // 
-            // pictureBox1
+            // Pic_Logo
             // 
-            this.pictureBox1.Image = global::Capa_Vista_Componente_Consultas.Properties.Resources.logoquantum;
-            this.pictureBox1.Location = new System.Drawing.Point(-2, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(108, 113);
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
+            this.Pic_Logo.Image = global::Capa_Vista_Componente_Consultas.Properties.Resources.logoquantum;
+            this.Pic_Logo.Location = new System.Drawing.Point(-2, 0);
+            this.Pic_Logo.Name = "Pic_Logo";
+            this.Pic_Logo.Size = new System.Drawing.Size(108, 113);
+            this.Pic_Logo.TabIndex = 6;
+            this.Pic_Logo.TabStop = false;
             // 
             // Frm_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.lbl_Instrucciones);
-            this.Controls.Add(this.btn_Cerrar);
-            this.Controls.Add(this.lbl_Bienvenida);
-            this.Controls.Add(this.btn_Ayuda);
-            this.Controls.Add(this.btn_ConsultaCompleja);
-            this.Controls.Add(this.btn_ConsultaSimple);
+            this.Controls.Add(this.Pic_Logo);
+            this.Controls.Add(this.Lbl_Instrucciones);
+            this.Controls.Add(this.Btn_Cerrar);
+            this.Controls.Add(this.Lbl_Bienvenida);
+            this.Controls.Add(this.Btn_Ayuda);
+            this.Controls.Add(this.Btn_ConsultaCompleja);
+            this.Controls.Add(this.Btn_ConsultaSimple);
             this.Name = "Frm_Principal";
             this.Text = "Frm_Principal";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Logo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -129,12 +129,12 @@ namespace Capa_Vista_Componente_Consultas
 
         #endregion
 
-        private System.Windows.Forms.Button btn_ConsultaSimple;
-        private System.Windows.Forms.Button btn_ConsultaCompleja;
-        private System.Windows.Forms.Button btn_Ayuda;
-        private System.Windows.Forms.Label lbl_Bienvenida;
-        private System.Windows.Forms.Button btn_Cerrar;
-        private System.Windows.Forms.Label lbl_Instrucciones;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button Btn_ConsultaSimple;
+        private System.Windows.Forms.Button Btn_ConsultaCompleja;
+        private System.Windows.Forms.Button Btn_Ayuda;
+        private System.Windows.Forms.Label Lbl_Bienvenida;
+        private System.Windows.Forms.Button Btn_Cerrar;
+        private System.Windows.Forms.Label Lbl_Instrucciones;
+        private System.Windows.Forms.PictureBox Pic_Logo;
     }
 }

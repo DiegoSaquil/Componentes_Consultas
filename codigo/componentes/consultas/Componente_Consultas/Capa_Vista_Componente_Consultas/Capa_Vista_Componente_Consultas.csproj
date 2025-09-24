@@ -46,29 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Consulta_Compleja.cs">
+    <Compile Include="Frm_Consulta_Compleja.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Consulta_Compleja.Designer.cs">
-      <DependentUpon>Consulta_Compleja.cs</DependentUpon>
+    <Compile Include="Frm_Consulta_Compleja.Designer.cs">
+      <DependentUpon>Frm_Consulta_Compleja.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_Creacion.cs">
+    <Compile Include="Frm_Consulta_Simple.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_Creacion.Designer.cs">
-      <DependentUpon>Frm_Creacion.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Frm_Consultas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Frm_Consultas.Designer.cs">
-      <DependentUpon>Frm_Consultas.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Frm_editar.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Frm_editar.Designer.cs">
-      <DependentUpon>Frm_editar.cs</DependentUpon>
+    <Compile Include="Frm_Consulta_Simple.Designer.cs">
+      <DependentUpon>Frm_Consulta_Simple.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_Principal.cs">
       <SubType>Form</SubType>
@@ -84,17 +72,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Consulta_Compleja.resx">
-      <DependentUpon>Consulta_Compleja.cs</DependentUpon>
+    <EmbeddedResource Include="Frm_Consulta_Compleja.resx">
+      <DependentUpon>Frm_Consulta_Compleja.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_Consultas.resx">
-      <DependentUpon>Frm_Consultas.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Frm_Creacion.resx">
-      <DependentUpon>Frm_Creacion.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Frm_editar.resx">
-      <DependentUpon>Frm_editar.cs</DependentUpon>
+    <EmbeddedResource Include="Frm_Consulta_Simple.resx">
+      <DependentUpon>Frm_Consulta_Simple.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Principal.resx">
       <DependentUpon>Frm_Principal.cs</DependentUpon>
