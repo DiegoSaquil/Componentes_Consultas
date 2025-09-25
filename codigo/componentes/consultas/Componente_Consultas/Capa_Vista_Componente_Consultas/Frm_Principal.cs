@@ -1,15 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Capa_Vista_Componente_Consultas
 {
+
+    // Realizado por: Nelson Jose Godinez Mendez 0901-22-3550
     public partial class Frm_Principal : Form
     {
         public Frm_Principal()
@@ -17,31 +12,57 @@ namespace Capa_Vista_Componente_Consultas
             InitializeComponent();
         }
 
+       
         private void btn_ConsultaSimple_Click(object sender, EventArgs e)
         {
-            //Consulta simple
-            Frm_Consultas consultas = new Frm_Consultas();
-            consultas.Show();
-            this.Hide();
+            using (var f = new Frm_Consultas())
+            {
+                this.Hide();
+                f.ShowDialog(this);   
+                this.Show();
+            }
         }
 
+        
         private void btn_ConsultaCompleja_Click(object sender, EventArgs e)
         {
-            Consulta_Compleja consulta_compleja = new Consulta_Compleja();
-            consulta_compleja.Show();
-            this.Hide();
+            using (var f = new Frm_Consulta_Compleja())
+            {
+                this.Hide();
+                f.ShowDialog(this);
+                this.Show();
+            }
         }
 
+       
+        private void btn_Ayuda_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string url = "https://drive.google.com/drive/folders/1eOTejEnZx027FXOCr0ALDAdZhShsIidU?usp=sharing";
+                System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
+                {
+                    FileName = url,
+                    UseShellExecute = true
+                });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("No se pudo abrir el manual en línea.\n" + ex.Message,
+                                "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+       
         private void btn_Cerrar_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
-        private void Btn_editar_Click(object sender, EventArgs e)
+        protected override void OnFormClosed(FormClosedEventArgs e)
         {
-            Frm_editar edicion = new Frm_editar();
-            edicion.Show();
-            this.Hide();
+            base.OnFormClosed(e);
+            Application.Exit();
         }
     }
 }
